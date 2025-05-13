@@ -12,3 +12,15 @@ Nature\IMG_7723.jpg:A scenic view of a valley with a mountain in the background.
 Nature\IMG_7740.jpg:A river with many trees and a bridge in the background. A river with many trees and a bridge in the background.
 Nature\IMG_8754.jpg:A mountain range with a mountain range and mountains in the background. A goat and a goat stand on a hillside.
 Nature\IMG_8931.jpg:A view of mountains and mountains and mountains. A mountain range with a bunch of flowers on it
+Photo_Portfolio\DJI_0195.jpg:A view of a mountain view overlooking the ocean. A view of a lake with a bunch of boats in the water.
+Photo_Portfolio\DJI_0204.jpg:A view of a valley from a distance. A view of a valley from the ground. 
+Photo_Portfolio\DJI_0345.jpg:A boat docked on the water by the beach A boat is sitting on the water near the shore.
+Photo_Portfolio\DJI_0487.jpg:A lake with a green and yellow sunset. A river with a lake and a large body of water.
+Photo_Portfolio\DJI_0489.jpg:A boat is docked at the shoreline of a lake. A boat is docked at the pier in the evening.
+Photo_Portfolio\DJI_0508.jpg:A sunset with a boat in the background. A sunset view of a lake with a boat in the background.
+Photo_Portfolio\DJI_0636.jpg:A lake with a large body of water and a large tree. A lake with a large body of water and a large body of water.
+Photo_Portfolio\DJI_0655.jpg:A sunset view of a lake with a boat on the lake. A view of a lake with a boat in the background.
+Photo_Portfolio\DJI_0934.jpg: sunset in the distance of a beach with a large body of water. A sunset is setting in the distance at the beach.
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg:A view of a mountain range from a distance. A view of a mountain with a mountain in the background.
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg:A view of the ocean from a boat on the water. A train going down a mountain near the water.
+Photo_Portfolio\IMG_1311.jpg:The sun is setting over the water at sunset. A boat is docked at the shore near the ocean.

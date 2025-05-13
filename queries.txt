@@ -1,0 +1,6 @@
+Query 1: Forest with a lake
+Query 2: mountain with valley
+Query 3: waterfall and river
+Query 4: Ocean landscape
+Query 5: Fall colors and a river
+Query 6: Sunset on a lake

@@ -1,0 +1,250 @@
+
+=== No Preprocessing ===
+
+Query 1: forest with a lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.3342)
+Nature\1P1A6486.jpg (Score: 0.2172)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.2002)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.1388)
+Photo_Portfolio\DJI_0636.jpg (Score: 0.1084)
+
+Query 2: mountain with valley 
+Top Matches:
+Nature\IMG_7723.jpg (Score: 0.7155)
+Photo_Portfolio\DJI_0204.jpg (Score: 0.4869)
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg (Score: 0.3034)
+Nature\DJI_0662.jpg (Score: 0.2683)
+Nature\DJI_0826.jpg (Score: 0.1738)
+
+Query 3: waterfall and river 
+Top Matches:
+Nature\1P1A6729.jpg (Score: 0.8019)
+Nature\DJI_0393.jpg (Score: 0.4347)
+Nature\IMG_7438.jpg (Score: 0.2541)
+Nature\IMG_7740.jpg (Score: 0.2382)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.2069)
+
+Query 4: ocean landscape 
+Top Matches:
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1644)
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg (Score: 0.1575)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.1250)
+Nature\IMG_7740.jpg (Score: 0.0000)
+Nature\1P1A6729.jpg (Score: 0.0000)
+
+Query 5: fall colors and a river 
+Top Matches:
+Nature\DJI_0393.jpg (Score: 0.2971)
+Nature\IMG_7438.jpg (Score: 0.1738)
+Nature\IMG_7740.jpg (Score: 0.1629)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1418)
+Nature\1P1A6729.jpg (Score: 0.1022)
+
+Query 6: sunset on a lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.6558)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.5749)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.3935)
+Photo_Portfolio\DJI_0934.jpg (Score: 0.2514)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.1268)
+
+=== Stemming Only ===
+
+Query 1: forest with a lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.3398)
+Nature\1P1A6486.jpg (Score: 0.2206)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.2002)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.1419)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1116)
+
+Query 2: mountain with valley 
+Top Matches:
+Nature\IMG_7723.jpg (Score: 0.7155)
+Photo_Portfolio\DJI_0204.jpg (Score: 0.4869)
+Nature\IMG_8931.jpg (Score: 0.3138)
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg (Score: 0.3034)
+Nature\DJI_0662.jpg (Score: 0.2683)
+
+Query 3: waterfal and river 
+Top Matches:
+Nature\1P1A6729.jpg (Score: 0.8099)
+Nature\DJI_0393.jpg (Score: 0.4347)
+Nature\IMG_7438.jpg (Score: 0.2679)
+Nature\IMG_7740.jpg (Score: 0.2495)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.2069)
+
+Query 4: ocean landscap 
+Top Matches:
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1794)
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg (Score: 0.1580)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.1253)
+Nature\IMG_7740.jpg (Score: 0.0000)
+Nature\1P1A6729.jpg (Score: 0.0000)
+
+Query 5: fall color and a river 
+Top Matches:
+Nature\DJI_0393.jpg (Score: 0.2971)
+Nature\IMG_7438.jpg (Score: 0.1833)
+Nature\IMG_7740.jpg (Score: 0.1706)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1418)
+Nature\1P1A6729.jpg (Score: 0.1032)
+
+Query 6: sunset on a lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.6668)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.5875)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.3935)
+Photo_Portfolio\DJI_0934.jpg (Score: 0.2514)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1281)
+
+=== Stopwords Only ===
+
+Query 1: forest lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.3404)
+Nature\1P1A6486.jpg (Score: 0.2258)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1996)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.1292)
+Photo_Portfolio\DJI_0636.jpg (Score: 0.1042)
+
+Query 2: mountain valley 
+Top Matches:
+Nature\IMG_7723.jpg (Score: 0.7442)
+Photo_Portfolio\DJI_0204.jpg (Score: 0.6130)
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg (Score: 0.3290)
+Nature\DJI_0662.jpg (Score: 0.2974)
+Nature\DJI_0826.jpg (Score: 0.1896)
+
+Query 3: waterfall river 
+Top Matches:
+Nature\1P1A6729.jpg (Score: 0.8305)
+Nature\DJI_0393.jpg (Score: 0.3913)
+Nature\IMG_7740.jpg (Score: 0.2077)
+Nature\IMG_7438.jpg (Score: 0.1985)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1167)
+
+Query 4: ocean landscape 
+Top Matches:
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg (Score: 0.2031)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.1827)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1723)
+Nature\IMG_7740.jpg (Score: 0.0000)
+Nature\1P1A6729.jpg (Score: 0.0000)
+
+Query 5: fall colors river 
+Top Matches:
+Nature\DJI_0393.jpg (Score: 0.2581)
+Nature\IMG_7740.jpg (Score: 0.1370)
+Nature\IMG_7438.jpg (Score: 0.1309)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.0770)
+Nature\1P1A6729.jpg (Score: 0.0562)
+
+Query 6: sunset lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.6827)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.6787)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.4651)
+Photo_Portfolio\DJI_0934.jpg (Score: 0.3027)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.2065)
+
+=== Stemming + Stopwords ===
+
+Query 1: forest lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.3468)
+Nature\1P1A6486.jpg (Score: 0.2296)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1996)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.1324)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1102)
+
+Query 2: mountain valley 
+Top Matches:
+Nature\IMG_7723.jpg (Score: 0.7442)
+Photo_Portfolio\DJI_0204.jpg (Score: 0.6130)
+Nature\IMG_8931.jpg (Score: 0.3573)
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg (Score: 0.3290)
+Nature\DJI_0662.jpg (Score: 0.2974)
+
+Query 3: waterfal river 
+Top Matches:
+Nature\1P1A6729.jpg (Score: 0.8400)
+Nature\DJI_0393.jpg (Score: 0.3913)
+Nature\IMG_7740.jpg (Score: 0.2231)
+Nature\IMG_7438.jpg (Score: 0.2118)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1167)
+
+Query 4: ocean landscap 
+Top Matches:
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg (Score: 0.2041)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1899)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.1835)
+Nature\IMG_7740.jpg (Score: 0.0000)
+Nature\1P1A6729.jpg (Score: 0.0000)
+
+Query 5: fall color river 
+Top Matches:
+Nature\DJI_0393.jpg (Score: 0.2581)
+Nature\IMG_7740.jpg (Score: 0.1472)
+Nature\IMG_7438.jpg (Score: 0.1397)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.0770)
+Nature\1P1A6729.jpg (Score: 0.0568)
+
+Query 6: sunset lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.6956)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.6955)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.4651)
+Photo_Portfolio\DJI_0934.jpg (Score: 0.3027)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.2073)
+
+=== Stemming + Stopwords + Thesaurus ===
+
+Query 1: forest lake 
+Top Matches:
+Nature\1P1A6486.jpg (Score: 0.3021)
+Photo_Portfolio\DJI_0636.jpg (Score: 0.0389)
+Photo_Portfolio\DJI_0655.jpg (Score: 0.0379)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.0379)
+Photo_Portfolio\DJI_0489.jpg (Score: 0.0202)
+
+Query 2: mountain valley 
+Top Matches:
+Nature\IMG_7723.jpg (Score: 0.6981)
+Photo_Portfolio\hawaii-2022_52108749967_o.jpg (Score: 0.4414)
+Nature\DJI_0826.jpg (Score: 0.3942)
+Nature\IMG_8931.jpg (Score: 0.3389)
+Photo_Portfolio\DJI_0195.jpg (Score: 0.3286)
+
+Query 3: waterfal river 
+Top Matches:
+Nature\1P1A6729.jpg (Score: 0.3920)
+Nature\DJI_0393.jpg (Score: 0.1779)
+Nature\IMG_7740.jpg (Score: 0.1232)
+Nature\IMG_7438.jpg (Score: 0.0780)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.0372)
+
+Query 4: ocean landscap 
+Top Matches:
+Photo_Portfolio\DJI_0195.jpg (Score: 0.1182)
+Photo_Portfolio\IMG_1311.jpg (Score: 0.0788)
+Photo_Portfolio\hawaii-2022_52110283835_o.jpg (Score: 0.0654)
+Nature\IMG_7740.jpg (Score: 0.0000)
+Nature\1P1A6729.jpg (Score: 0.0000)
+
+Query 5: fall color river 
+Top Matches:
+Nature\DJI_0393.jpg (Score: 0.0214)
+Nature\hawaii-2022_52110022384_o.jpg (Score: 0.0186)
+Nature\IMG_7740.jpg (Score: 0.0148)
+Nature\1P1A6486.jpg (Score: 0.0121)
+Nature\1P1A6729.jpg (Score: 0.0120)
+
+Query 6: sunset lake 
+Top Matches:
+Photo_Portfolio\DJI_0655.jpg (Score: 0.3759)
+Photo_Portfolio\DJI_0508.jpg (Score: 0.3759)
+Photo_Portfolio\DJI_0487.jpg (Score: 0.1325)
+Photo_Portfolio\DJI_0636.jpg (Score: 0.0995)
+Photo_Portfolio\DJI_0934.jpg (Score: 0.0980)
