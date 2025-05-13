@@ -41,26 +41,31 @@ trainer = Train.Trainer(model_config,train_config,(train_dl,val_dl))
 trainer.load_best_model()
 
 
-def captionDirectory(imageDir, outfile, temp, repetitions, show):
-	with open(outfile, "w") as file:
-		num = 0
-		for dirpath, dirnames, filenames in os.walk(imageDir):
-			for filename in filenames:
-				file_path = os.path.join(dirpath, filename)
-				gen_caption = ""
-				for i in range(repetitions):			
-					gen_caption += trainer.generate_caption(file_path, max_tokens=100, temperature=temp,deterministic=False) + " "
-				gen_caption = gen_caption[:-1]
-				if show:		
-					plt.imshow(Image.open(file_path).convert('RGB'))		
-					plt.title(f"model: {gen_caption}\ntemp: {temp}")
-					plt.axis('off')
-					plt.show()
-				file.write(file_path + ":" + gen_caption + "\n")
-				num += 1
-				print(num)
-				
+def captionDirectory(imageDir, file, temp, repetitions, show):
+    num = 0
+    for dirpath, dirnames, filenames in os.walk(imageDir):
+        for filename in filenames:
+            if not filename.lower().endswith('.jpg'):
+                continue
+            file_path = os.path.join(dirpath, filename)
+
+            gen_caption = ""
+            for _ in range(repetitions):			
+                gen_caption += trainer.generate_caption(file_path, max_tokens=100, temperature=temp, deterministic=False) + " "
+            gen_caption = gen_caption.strip()
+
+            if show:		
+                plt.imshow(Image.open(file_path).convert('RGB'))		
+                plt.title(f"model: {gen_caption}\ntemp: {temp}")
+                plt.axis('off')
+                plt.show()
+
+            file.write(file_path + ":" + gen_caption + "\n")
+            num += 1
+            print(f"{num}: {file_path}")
+
     
-captionDirectory(imageDir="Nature", outfile="captions.txt", temp=0.3, repetitions=2, show=False)
-captionDirectory(imageDir="Photo_Portfolio", outfile="captions1.txt", temp=0.3, repetitions=2, show=False)
+with open("captions.txt", "w") as outfile:
+    captionDirectory("Nature", outfile, temp=0.3, repetitions=2, show=False)
+    captionDirectory("Photo_Portfolio", outfile, temp=0.3, repetitions=2, show=False)
 # https://www.kaggle.com/code/shreydan/visiongpt2-image-captioning-pytorch/output

@@ -25,7 +25,11 @@ class Trainer:
         
         self.train_config = train_config
         self.model_config = model_config
-        self.device = self.train_config.device
+        if torch.backends.mps.is_available():
+            self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+
         
         self.model = VisionGPT2Model.from_pretrained(model_config).to(self.device)
         self.model.pretrained_layers_trainable(trainable=False)
@@ -68,7 +72,7 @@ class Trainer:
         
         
     def load_best_model(self,):
-        sd = torch.load(self.train_config.model_path/'captioner.pt')
+        sd = torch.load(self.train_config.model_path / 'captioner.pt', map_location=torch.device('cpu'))
         self.model.load_state_dict(sd)
     
     
@@ -177,18 +181,17 @@ class Trainer:
             'best_epoch': best_epoch
         }
            
+
         
     @torch.no_grad()
-    def generate_caption(self,image,max_tokens=50,temperature=1.0,deterministic=False):
-        
+    def generate_caption(self, image, max_tokens=50, temperature=1.0, deterministic=False):
         self.model.eval()
-        
         image = Image.open(image).convert('RGB')
         image = np.array(image)
         image = self.gen_tfms(image=image)['image']
         image = image.unsqueeze(0).to(self.device)
-        sequence = torch.ones(1,1).to(device=self.device).long() * self.tokenizer.bos_token_id
-        
+        sequence = torch.ones(1, 1).to(device=self.device).long() * self.tokenizer.bos_token_id
+
         caption = self.model.generate(
             image,
             sequence,
@@ -196,6 +199,6 @@ class Trainer:
             temperature=temperature,
             deterministic=deterministic
         )
-        caption = self.tokenizer.decode(caption.numpy(),skip_special_tokens=True)
-        
+        caption = self.tokenizer.decode(caption.numpy(), skip_special_tokens=True)
+
         return caption

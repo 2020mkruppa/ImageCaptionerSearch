@@ -77,7 +77,7 @@ def cosine_similarity(vec1, vec2):
     return dot / (norm1 * norm2) if norm1 != 0 and norm2 != 0 else 0.0
 
 
-def search_images(image_titles, caption_vecs, query_vecs, top_n=5):
+def search_images(image_titles, caption_vecs, query_vecs, top_n):
     results = []
     for query_vec in query_vecs:
         scores = [cosine_similarity(query_vec, cap_vec) for cap_vec in caption_vecs]
@@ -99,6 +99,8 @@ def expand_query(query):
 
 
 def run_experiment(permutation, use_stemming, remove_stopwords, use_thesaurus, output_file):
+    top_n = 10
+    relevant_images = ["Nature/1P1A6486.jpg", "Nature/1P1A6729.jpg", "Nature/IMG_7438.jpg", "Nature/IMG_7740.jpg", "Nature/IMG_7525.jpg"]
     output_file.write(f"\n=== {permutation} ===\n")
 
     stop_words = load_stop_words() if remove_stopwords else None
@@ -107,7 +109,7 @@ def run_experiment(permutation, use_stemming, remove_stopwords, use_thesaurus, o
     img_titles, captions = load_documents('captions.txt', use_stemming, remove_stopwords, stop_words, stemmer)
     qry_titles, queries = load_documents('queries.txt', use_stemming, remove_stopwords, stop_words, stemmer)
 
-    origninal_quereies = queries
+    original_queries = queries.copy()
 
     if use_thesaurus:
         captions = [expand_query(doc) for doc in captions]
@@ -120,14 +122,27 @@ def run_experiment(permutation, use_stemming, remove_stopwords, use_thesaurus, o
     caption_vecs = compute_tfidf(captions, vocab, df, total_docs)
     query_vecs = compute_tfidf(queries, vocab, df, total_docs)
 
-    results = search_images(img_titles, caption_vecs, query_vecs)
+    results = search_images(img_titles, caption_vecs, query_vecs, top_n)
 
-    for i, (query, top) in enumerate(zip(qry_titles, results)):
-        textQuery = (" ".join(origninal_quereies[i]))
-        output_file.write(f"\n{query}: {textQuery} \n")
+    for i, (query_title, top_matches) in enumerate(zip(qry_titles, results)):
+        text_query = " ".join(original_queries[i])
+        output_file.write(f"\n{query_title}: {text_query}\n")
+        
+        if query_title == "Test Query":
+            relevant_retrieved = 0
+            retrieved = {title for title, _ in top_matches}
+            for img in retrieved:
+                if img in relevant_images:
+                    relevant_retrieved += 1
+            precision = relevant_retrieved / len(retrieved)
+            recall = relevant_retrieved / len(relevant_images) 
+            output_file.write(f"Precision: {precision:.4f}\n")
+            output_file.write(f"Recall: {recall:.4f}\n")
+
         output_file.write("Top Matches:\n")
-        for title, score in top:
+        for title, score in top_matches:
             output_file.write(f"{title} (Score: {score:.4f})\n")
+
 
 
 def main():

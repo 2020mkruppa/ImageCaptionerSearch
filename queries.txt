@@ -1,6 +1,8 @@
-Query 1: Forest with a lake
-Query 2: mountain with valley
-Query 3: waterfall and river
+Test Query: Waterfall with river in nature
+Query 1: Green forest with a lake
+Query 2: Mountain with a valley
+Query 3: A cold and Snowy forest
 Query 4: Ocean landscape
 Query 5: Fall colors and a river
-Query 6: Sunset on a lake
+Query 6: Sunset over a lake
+Query 7: An island surrounded by water
