@@ -1,4 +1,5 @@
 import re
+import os
 import numpy as np
 from collections import defaultdict, Counter
 from nltk.stem.snowball import SnowballStemmer
@@ -98,19 +99,42 @@ def expand_query(query):
     return list(expanded_query) 
 
 
-def run_experiment(permutation, use_stemming, remove_stopwords, use_thesaurus, output_file):
-    top_n = 10
-    relevant_images = ["Nature/1P1A6486.jpg", "Nature/1P1A6729.jpg", "Nature/IMG_7438.jpg", "Nature/IMG_7740.jpg", "Nature/IMG_7525.jpg"]
-    output_file.write(f"\n=== {permutation} ===\n")
+def load_relevant_photos(filepath):
+    relevant = {}
+    with open(filepath, 'r', encoding='utf-8') as file:
+        for line in file:
+            if ':' in line:
+                query, imgs = line.strip().split(':', 1)
+                query_num = int(re.findall(r'\d+', query)[0])
+                relevant[query_num] = set(img.strip() for img in imgs.split(','))
+    return relevant
+
+def run_experiment(caption_file, permutation, use_stemming, remove_stopwords, use_thesaurus, output_file, relevant_photos):
+    with open(caption_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    # Extract settings
+    temp_line = lines[0].strip()
+    repetitions_line = lines[1].strip()
+    captions_data = lines[2:]
+    
+    temp = float(temp_line.split(":")[1].strip())
+    repetitions = int(repetitions_line.split(":")[1].strip())
+
+    # Prepare captions file to read as needed
+    with open("temp_captions.txt", 'w', encoding='utf-8') as temp_f:
+        temp_f.writelines(captions_data)
+
+    output_file.write(f"\n=== File: {caption_file} | Temp: {temp} | Repetitions: {repetitions} ===\n")
+    output_file.write(f"Experiment: {permutation}\n")
 
     stop_words = load_stop_words() if remove_stopwords else None
     stemmer = SnowballStemmer('english') if use_stemming else None
 
-    img_titles, captions = load_documents('captions.txt', use_stemming, remove_stopwords, stop_words, stemmer)
+    img_titles, captions = load_documents('temp_captions.txt', use_stemming, remove_stopwords, stop_words, stemmer)
     qry_titles, queries = load_documents('queries.txt', use_stemming, remove_stopwords, stop_words, stemmer)
 
     original_queries = queries.copy()
-
     if use_thesaurus:
         captions = [expand_query(doc) for doc in captions]
         queries = [expand_query(doc) for doc in queries]
@@ -122,28 +146,24 @@ def run_experiment(permutation, use_stemming, remove_stopwords, use_thesaurus, o
     caption_vecs = compute_tfidf(captions, vocab, df, total_docs)
     query_vecs = compute_tfidf(queries, vocab, df, total_docs)
 
-    results = search_images(img_titles, caption_vecs, query_vecs, top_n)
+    results = search_images(img_titles, caption_vecs, query_vecs, top_n=10)
 
-    for i, (query_title, top_matches) in enumerate(zip(qry_titles, results)):
-        text_query = " ".join(original_queries[i])
+    for i, (query_title, top_matches) in enumerate(zip(qry_titles, results), start=1):
+        text_query = " ".join(original_queries[i - 1])
         output_file.write(f"\n{query_title}: {text_query}\n")
-        
-        if query_title == "Test Query":
-            relevant_retrieved = 0
-            retrieved = {title for title, _ in top_matches}
-            for img in retrieved:
-                if img in relevant_images:
-                    relevant_retrieved += 1
-            precision = relevant_retrieved / len(retrieved)
-            recall = relevant_retrieved / len(relevant_images) 
-            output_file.write(f"Precision: {precision:.4f}\n")
-            output_file.write(f"Recall: {recall:.4f}\n")
 
+        retrieved = {title for title, _ in top_matches}
+        relevant = relevant_photos.get(i, set())
+
+        true_positives = len(retrieved & relevant)
+        precision = true_positives / len(retrieved) if retrieved else 0.0
+        recall = true_positives / len(relevant) if relevant else 0.0
+
+        output_file.write(f"Precision: {precision:.4f}\n")
+        output_file.write(f"Recall: {recall:.4f}\n")
         output_file.write("Top Matches:\n")
         for title, score in top_matches:
             output_file.write(f"{title} (Score: {score:.4f})\n")
-
-
 
 def main():
     experiments = [
@@ -154,10 +174,13 @@ def main():
         ("Stemming + Stopwords + Thesaurus", True, True, True),
     ]
 
-    with open("results.txt", "w", encoding="utf-8") as output_file:
-        for permutation, stem, stop_words, thesaurus in experiments:
-            run_experiment(permutation, stem, stop_words, thesaurus, output_file)
+    relevant_photos = load_relevant_photos("Relevant_Photos.txt")
+    caption_files = sorted([f for f in os.listdir('.') if f.startswith("captions_") and f.endswith(".txt")])
 
+    with open("full_experiment_results.txt", "w", encoding="utf-8") as output_file:
+        for caption_file in caption_files:
+            for permutation, stem, stop_words, thesaurus in experiments:
+                run_experiment(caption_file, permutation, stem, stop_words, thesaurus, output_file, relevant_photos)
 
 if __name__ == "__main__":
     main()

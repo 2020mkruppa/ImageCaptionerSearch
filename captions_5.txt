@@ -1,0 +1,28 @@
+temp: 0.3 
+repetitions: 3 
+Nature/IMG_8931.jpg:A view of a valley of flowers and mountains. A hillside with a bunch of green grass and rocks. A picture of a hillside with a mountain in the background.
+Nature/DJI_0737.jpg:A garden with green leaves growing on the ground. A garden with green leaves and a green plant. A bench with leaves and plants in the grass.
+Nature/IMG_7740.jpg:A river with many trees and a bridge in the background. A river with a bunch of trees and bushes. A river with a bunch of flowers in it.
+Nature/1P1A6729.jpg:A waterfall with some trees and a river in the background. A waterfall with a bunch of plants growing on it A waterfall with a bunch of plants growing out of it.
+Nature/IMG_7525.jpg:A bench sitting in a rocky area next to a cliff. A bench in a rocky area with a mountain in the background. A bench in the middle of a desert
+Nature/DJI_0393.jpg:A view of a river with a bridge and a river. A river with a bunch of green grass and a river. A river with grass and water flowing down it.
+Nature/IMG_7723.jpg:A view of a valley with mountains in the background. A view of a valley from a mountain range. A view of a valley with mountains in the background.
+Nature/IMG_8754.jpg:A mountain range with a mountain range and mountains in the background. A mountain range with a mountain range and mountains in the background. A view of a valley from the mountains.
+Nature/hawaii-2022_52110022384_o.jpg:A view of a rocky cliff overlooking a body of water. A view of a rocky cliff with a view of the ocean. A view of a rocky cliff and a river.
+Nature/DJI_0826.jpg:A view of a beautiful mountain range with a boat in the water. A view of a valley with a boat and mountains in the background. A view of a mountain with a boat and mountains in the background.
+Nature/DJI_0189.jpg:A view of a group of sheep in a field. A picture of a snow covered hillside with a few trees. A view of a large herd of sheep grazing in a field.
+Nature/IMG_7438.jpg:A river with many trees and a river in the background. A river with many trees and a bridge in the background.  A river with a bridge and trees in the background
+Nature/DJI_0662.jpg:A train traveling over a lush green hillside. A view of a valley from a train A view of a valley from a train going down the tracks.
+Nature/1P1A6486.jpg:A bird is sitting on the branch of a tree. A bird is sitting in the middle of a pond. A bird is perched on a tree branch.
+Photo_Portfolio/DJI_0655.jpg:A lake with a bunch of green flowers on it A boat floating on a lake with a sunset in the background. A lake with a lake and a sunset.
+Photo_Portfolio/DJI_0508.jpg:A sunset with a boat in the background. A view of a lake from a boat on a sunny day. A view of a lake from the water.
+Photo_Portfolio/DJI_0487.jpg:A boat is sitting in the water near the water. A river with a bridge and a boat in the background. look out at a lake with a large body of water.
+Photo_Portfolio/DJI_0636.jpg:A lake with a large tree and a boat in the background. A river with a large body of water and trees. A river with a large body of water and a boat on the water.
+Photo_Portfolio/hawaii-2022_52110283835_o.jpg:A view of a sunset with a train on it's side. A view of a scenic view of a mountain and mountains. A view of a scenic view of a mountain range.
+Photo_Portfolio/DJI_0345.jpg:A boat is docked at the shore at sunset. A boat on the water near the ocean. A boat is docked at the shore of the ocean.
+Photo_Portfolio/DJI_0195.jpg:A view of a bunch of motorcycles and boats in the water. A view of a lake and mountains with a sunset over the water. A view of a mountain range with boats and a lake.
+Photo_Portfolio/hawaii-2022_52108749967_o.jpg:A view of a mountain range from a distance. A view of a mountain range from the ground. A view of a mountain range from the ground.
+Photo_Portfolio/DJI_0204.jpg:A view of a valley from a distance.  A view of a valley from a distance. A view of a valley from a distance.
+Photo_Portfolio/DJI_0489.jpg:A boat is docked at the pier in front of a large building. A boat is docked at a pier with a sunset in the background. A boat is docked at a pier near the water.
+Photo_Portfolio/IMG_1311.jpg:A sunset with a boat and a sunset in the background. A boat is docked at the end of the day. A boat is docked at the water's edge.
+Photo_Portfolio/DJI_0934.jpg:A sunset with a bright sky and a cloudy sky. A sunset with a cloudy sky and clouds. The sunset is setting over the beach.

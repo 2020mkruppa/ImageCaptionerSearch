@@ -1,0 +1,28 @@
+temp: 0.5 
+repetitions: 3 
+Nature/IMG_8931.jpg:A view of a mountain with some trees in the background. A hill with many flowers and a mountain in the background. A rocky mountain range with a steeple and mountains in the background.
+Nature/DJI_0737.jpg:A garden with lots of green leaves and green plants. A garden with green leaves and a plant in the background. A bench in the middle of a grassy field.
+Nature/IMG_7740.jpg:A waterfall with a few trees and a bridge. A view of a bridge and a river A view of a river and mountainside with a bridge
+Nature/1P1A6729.jpg:A river with several trees and a waterfall in the background. A waterfall and a man standing on a branch. A waterfall on a city street with a bridge in the background
+Nature/IMG_7525.jpg:A boat sitting in the middle of a rocky shore. A boat traveling down a river on a sunny day A boat in the water near a stone wall
+Nature/DJI_0393.jpg:A river that has some grass and water in it. A river with a stream flowing down it and a bridge in the background. A river with a river and a bridge in the background.
+Nature/IMG_7723.jpg:A view of a valley from a mountain. a view of a valley with a waterfall in the background. A waterfall with a mountain view and mountains in the background
+Nature/IMG_8754.jpg:A group of animals grazing on a rocky hillside. A mountain range with animals grazing on it A view of a mountain range with mountains in the background.
+Nature/hawaii-2022_52110022384_o.jpg:A rock is being viewed by a lone mountain. A picture of a rocky cliff with a river in the background. A view of a rocky hillside overlooking a river
+Nature/DJI_0826.jpg:A view of a valley with a view of a skateboarder riding a wave. The ocean is full of people on top of a hill. hundreds of people surfing on a large body of water
+Nature/DJI_0189.jpg:A snowy hillside with a tree on the hillside. A snowy landscape with a large amount of snow. A photo of a herd of sheep grazing in a field.
+Nature/IMG_7438.jpg:A view of a river from a boat in the water. A river with several small boats floating in it. A river with many trees and a bridge in the background.
+Nature/DJI_0662.jpg:A picture of a valley with a train traveling along it. A view of a valley from different directions. A view of a valley from a distance.
+Nature/1P1A6486.jpg:A bird is perched on a branch in the water. A bird is standing in the grass near a tree. A bird is sitting in the shade near a tree.
+Photo_Portfolio/DJI_0655.jpg:Hanging out on a lake at sunset. A very nice looking lake with a large amount of water near it. A river with a bunch of green flowers in the background.
+Photo_Portfolio/DJI_0508.jpg:A sunset view of a city with lots of boats on the water.  VIEW OF A PARK WITH A LOT OF PEOPLE PARKED  A view of a river and a large body of water.
+Photo_Portfolio/DJI_0487.jpg:A view of a river that is in the distance.  look at a river with a boat in the background. There are some trees at the lake.
+Photo_Portfolio/DJI_0636.jpg:a view of a river and a bench in the distance. look at a scenic view of a lake with a boat in the background. A river with some trees and a boat in the background
+Photo_Portfolio/hawaii-2022_52110283835_o.jpg:The view of a mountain from a distance. A view of the side of a river.  A train traveling along a river near a mountain
+Photo_Portfolio/DJI_0345.jpg:A bunch of boats are docked at the beach A boat is docked at the shoreline of the ocean. A boat on the water at sunset.
+Photo_Portfolio/DJI_0195.jpg:A view of a park with a mountain in the background.  view of a small town with a lot of water and mountains in the background. A group of motorcycles parked on a hill overlooking a lake.
+Photo_Portfolio/hawaii-2022_52108749967_o.jpg:A view of a mountain range with a mountain view. A picture of some mountains in the distance. The image of an outdoors area with mountains in the background.
+Photo_Portfolio/DJI_0204.jpg:A view of a valley from a distance. A view of a mountain side with a train coming down the hill. a view of a valley from a bench
+Photo_Portfolio/DJI_0489.jpg:A sunset at sunset with boats in the background. A boat is coming down the river at sunset. A boat is docked at a pier near a lake.
+Photo_Portfolio/IMG_1311.jpg:A boat that is sitting in the water. The sunset is shining over the water. Oddly lit boats are docked at the water's edge.
+Photo_Portfolio/DJI_0934.jpg:sunset on a cloudy day with a large body of water The sun setting over the ocean on a cloudy day. light over the water with a cloudy sky.

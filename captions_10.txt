@@ -1,0 +1,28 @@
+temp: 0.7 
+repetitions: 1 
+Nature/IMG_8931.jpg:A hill with many bushes and mountains in the background.
+Nature/DJI_0737.jpg:A bench that has been placed in a grassy field.
+Nature/IMG_7740.jpg:There are some kind of animals roaming the countryside at a scenic location.
+Nature/1P1A6729.jpg:a waterfall with several bushes and trees behind it
+Nature/IMG_7525.jpg:A path leading to a hill with many trees
+Nature/DJI_0393.jpg:A nearby river with a view of a mountain and beach.
+Nature/IMG_7723.jpg:A view of a scenic trail overlooking a valley.
+Nature/IMG_8754.jpg:A mountain with a bunch of animals on a hillside
+Nature/hawaii-2022_52110022384_o.jpg:A picture of a river with a bunch of rocks and rocks.
+Nature/DJI_0826.jpg:A horizontal view of a beach with a large wave crashing down
+Nature/DJI_0189.jpg:REAL OF SNOW BOARDER SITTING IN THE WATER
+Nature/IMG_7438.jpg:A waterfall is at a resort that is black and white
+Nature/DJI_0662.jpg:A train traveling along the tracks on a cloudy day
+Nature/1P1A6486.jpg:Older person sitting near tree with a cell phone
+Photo_Portfolio/DJI_0655.jpg:back view of water and sunset with sunset.
+Photo_Portfolio/DJI_0508.jpg:card of a beach with a light house in the background.
+Photo_Portfolio/DJI_0487.jpg:on a sunny day in front of a lake.
+Photo_Portfolio/DJI_0636.jpg:Picture of water in a large lake on a cloudy day.
+Photo_Portfolio/hawaii-2022_52110283835_o.jpg:along the side of a mountain with a sunset on the horizon.
+Photo_Portfolio/DJI_0345.jpg:A boardwalk with a scenic overlook and sunset in the distance
+Photo_Portfolio/DJI_0195.jpg:look at the ocean with several parked motorcycles.
+Photo_Portfolio/hawaii-2022_52108749967_o.jpg:There is a mountain range with mountains in the background.
+Photo_Portfolio/DJI_0204.jpg:A view of a farmhouse through a mountain view
+Photo_Portfolio/DJI_0489.jpg:a lake with many boats floating in it.
+Photo_Portfolio/IMG_1311.jpg:The sun is setting on the hill with the sun set over the water.
+Photo_Portfolio/DJI_0934.jpg:A sun shining on a beach near the ocean.

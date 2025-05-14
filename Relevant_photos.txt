@@ -1,1 +1,8 @@
-
+Query 1: Nature/1P1A6486.jpg, Nature/1P1A6729.jpg, Nature/IMG_7438.jpg, Nature/IMG_7740.jpg, Nature/IMG_7525.jpg
+Query 2: Nature/DJI_0662.jpg, Nature/DJI_0189.jpg
+Query 3: Photo_Portfolio/DJI_0636.jpg, Photo_Portfolio/DJI_0487.jpg, Photo_Portfolio/DJI_0655.jpg
+Query 4: Photo_Portfolio/hawaii-2022_52108749967_o.jpg, Nature/DJI_0826.jpg, Nature/IMG_8754.jpg, Nature/IMG_8931.jpg, Nature/IMG_7723.jpg
+Query 5: Nature/IMG_7740.jpg, Nature/IMG_7723.jpg, Nature/IMG_7438,jpg, Nature/IMG_7525,jpg
+Query 6: Photo_Portfolio/DJI_0934.jpg
+Query 7: Photo_Portfolio/DJI_0195.jpg, Photo_Portfolio/DJI_0204.jpg, Photo_Portfolio/DJI_0487.jpg, Photo_Portfolio/DJI_0489.jpg, Photo_Portfolio/DJI_0508.jpg, Photo_Portfolio/DJI_0636.jpg, Photo_Portfolio/DJI_0655.jpg, Photo_Portfolio/IMG_131.jpg
+Query 8: Nature/DJI_0737.jpg, Nature/DJI_0393.jpg, Nature/IMG_7740, Nature/IMG_7723.jpg, Nature/IMG_7438.jpg, 

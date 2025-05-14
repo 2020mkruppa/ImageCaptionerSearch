@@ -64,8 +64,29 @@ def captionDirectory(imageDir, file, temp, repetitions, show):
             num += 1
             print(f"{num}: {file_path}")
 
+
+'''
+temps = [0.1, 0.3, 0.5, 0.7, 1.0]
+repetitions_list = [1, 3, 5]
+
+file_counter = 1  # Start with captions_1.txt
+
+for temp in temps:
+    for repetitions in repetitions_list:
+        filename = f"captions_{file_counter}.txt"
+        with open(filename, "w") as outfile:
+
+            outfile.write(f"temp: {temp} \n")
+            outfile.write(f"repetitions: {repetitions} \n")
+
+            captionDirectory("Nature", outfile, temp=temp, repetitions=repetitions, show=False)
+            captionDirectory("Photo_Portfolio", outfile, temp=temp, repetitions=repetitions, show=False)
     
+        file_counter += 1
+'''
 with open("captions.txt", "w") as outfile:
-    captionDirectory("Nature", outfile, temp=0.3, repetitions=2, show=False)
-    captionDirectory("Photo_Portfolio", outfile, temp=0.3, repetitions=2, show=False)
+    captionDirectory("Images", outfile, temp=0.5, repetitions=3, show=False)
+
+
+
 # https://www.kaggle.com/code/shreydan/visiongpt2-image-captioning-pytorch/output

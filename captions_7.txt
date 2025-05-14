@@ -1,0 +1,28 @@
+temp: 0.5 
+repetitions: 1 
+Nature/IMG_8931.jpg:A picture of some mountains and flowers on a hillside.
+Nature/DJI_0737.jpg:A large hill in the grass near some plants.
+Nature/IMG_7740.jpg:A river with a bunch of plants and mountains in the background.
+Nature/1P1A6729.jpg:A waterfall with a bridge and trees in the background.
+Nature/IMG_7525.jpg:a view of a bench and a mountain in the distance
+Nature/DJI_0393.jpg:The view of a river and a river.
+Nature/IMG_7723.jpg:A picture of a valley with mountains in the background.
+Nature/IMG_8754.jpg:A view of a valley and mountains from a mountain range.
+Nature/hawaii-2022_52110022384_o.jpg:A picture of a beautiful valley with a rock cliff and a rocky shoreline.
+Nature/DJI_0826.jpg:A person is riding the waves on a surfboard.
+Nature/DJI_0189.jpg:The image of a herd of cattle grazing in the snow
+Nature/IMG_7438.jpg:A river running across a river with a bunch of trees.
+Nature/DJI_0662.jpg:A train traveling over a bridge with snow on it.
+Nature/1P1A6486.jpg:A single duck is in the water by itself
+Photo_Portfolio/DJI_0655.jpg:A boat that is sitting in the water.
+Photo_Portfolio/DJI_0508.jpg:A sunset view of a lake at sunset with a small body of water.
+Photo_Portfolio/DJI_0487.jpg:A boat is docked at the edge of the water.
+Photo_Portfolio/DJI_0636.jpg:A river with trees and a bridge in the background.
+Photo_Portfolio/hawaii-2022_52110283835_o.jpg:A train traveling along a track near a lake.
+Photo_Portfolio/DJI_0345.jpg:A boat is docked on a beach near the water.
+Photo_Portfolio/DJI_0195.jpg:The view of a small town with a few boats.
+Photo_Portfolio/hawaii-2022_52108749967_o.jpg:A view of a mountain range from a distance.
+Photo_Portfolio/DJI_0204.jpg:A road view of a valley with mountains in the background.
+Photo_Portfolio/DJI_0489.jpg:look into a large body of water at a lake.
+Photo_Portfolio/IMG_1311.jpg:A sunset is seen in the distance as a boat sails in the water.
+Photo_Portfolio/DJI_0934.jpg:A sunset with a sky background and a sunrise.
