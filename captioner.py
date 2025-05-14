@@ -65,7 +65,7 @@ def captionDirectory(imageDir, file, temp, repetitions, show):
             print(f"{num}: {file_path}")
 
 
-'''
+
 temps = [0.1, 0.3, 0.5, 0.7, 1.0]
 repetitions_list = [1, 3, 5]
 
@@ -86,6 +86,7 @@ for temp in temps:
 '''
 with open("captions.txt", "w") as outfile:
     captionDirectory("Images", outfile, temp=0.5, repetitions=3, show=False)
+'''
 
 
 

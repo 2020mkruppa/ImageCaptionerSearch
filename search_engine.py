@@ -161,9 +161,9 @@ def run_experiment(caption_file, permutation, use_stemming, remove_stopwords, us
 
         output_file.write(f"Precision: {precision:.4f}\n")
         output_file.write(f"Recall: {recall:.4f}\n")
-        output_file.write("Top Matches:\n")
-        for title, score in top_matches:
-            output_file.write(f"{title} (Score: {score:.4f})\n")
+        #output_file.write("Top Matches:\n")
+        #for title, score in top_matches:
+            #output_file.write(f"{title} (Score: {score:.4f})\n")
 
 def main():
     experiments = [
@@ -177,7 +177,7 @@ def main():
     relevant_photos = load_relevant_photos("Relevant_Photos.txt")
     caption_files = sorted([f for f in os.listdir('.') if f.startswith("captions_") and f.endswith(".txt")])
 
-    with open("full_experiment_results.txt", "w", encoding="utf-8") as output_file:
+    with open("full_experiment_results_2.txt", "w", encoding="utf-8") as output_file:
         for caption_file in caption_files:
             for permutation, stem, stop_words, thesaurus in experiments:
                 run_experiment(caption_file, permutation, stem, stop_words, thesaurus, output_file, relevant_photos)

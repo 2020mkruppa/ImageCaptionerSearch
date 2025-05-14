@@ -1,0 +1,2169 @@
+=== File: captions_10.txt | Temp: 0.7 | Repetitions: 1 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.2000
+Recall: 0.4000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall colors and a river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_10.txt | Temp: 0.7 | Repetitions: 1 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.2000
+Recall: 0.4000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color and a river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_10.txt | Temp: 0.7 | Repetitions: 1 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_10.txt | Temp: 0.7 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_10.txt | Temp: 0.7 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: river go forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_11.txt | Temp: 0.7 | Repetitions: 3 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river going through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_11.txt | Temp: 0.7 | Repetitions: 3 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_11.txt | Temp: 0.7 | Repetitions: 3 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_11.txt | Temp: 0.7 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_11.txt | Temp: 0.7 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_12.txt | Temp: 0.7 | Repetitions: 5 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: a river going through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_12.txt | Temp: 0.7 | Repetitions: 5 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: a river go through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_12.txt | Temp: 0.7 | Repetitions: 5 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.7000
+Recall: 0.8750
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_12.txt | Temp: 0.7 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.7000
+Recall: 0.8750
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_12.txt | Temp: 0.7 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.1000
+Recall: 0.1667
+
+=== File: captions_13.txt | Temp: 1.0 | Repetitions: 1 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surrounded by water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscape
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall colors and a river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_13.txt | Temp: 1.0 | Repetitions: 1 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall color and a river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_13.txt | Temp: 1.0 | Repetitions: 1 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscape
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river going forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_13.txt | Temp: 1.0 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river go forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_13.txt | Temp: 1.0 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscap
+Precision: 0.2000
+Recall: 0.4000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_14.txt | Temp: 1.0 | Repetitions: 3 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_14.txt | Temp: 1.0 | Repetitions: 3 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river go through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_14.txt | Temp: 1.0 | Repetitions: 3 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_14.txt | Temp: 1.0 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_14.txt | Temp: 1.0 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_15.txt | Temp: 1.0 | Repetitions: 5 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors and a river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_15.txt | Temp: 1.0 | Repetitions: 5 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color and a river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_15.txt | Temp: 1.0 | Repetitions: 5 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_15.txt | Temp: 1.0 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_15.txt | Temp: 1.0 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_2.txt | Temp: 0.1 | Repetitions: 3 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_2.txt | Temp: 0.1 | Repetitions: 3 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_2.txt | Temp: 0.1 | Repetitions: 3 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_2.txt | Temp: 0.1 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_2.txt | Temp: 0.1 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_3.txt | Temp: 0.1 | Repetitions: 5 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_3.txt | Temp: 0.1 | Repetitions: 5 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_3.txt | Temp: 0.1 | Repetitions: 5 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_3.txt | Temp: 0.1 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_3.txt | Temp: 0.1 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_4.txt | Temp: 0.3 | Repetitions: 1 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surrounded by water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_4.txt | Temp: 0.3 | Repetitions: 1 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.4000
+Recall: 0.5000
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_4.txt | Temp: 0.3 | Repetitions: 1 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.3000
+Recall: 0.3750
+
+Query 8: river going forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_5.txt | Temp: 0.3 | Repetitions: 3 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: an island surround by water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: a boat on the water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_5.txt | Temp: 0.3 | Repetitions: 3 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_5.txt | Temp: 0.3 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_5.txt | Temp: 0.3 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_6.txt | Temp: 0.3 | Repetitions: 5 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: a river going through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_6.txt | Temp: 0.3 | Repetitions: 5 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: a river go through a forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_6.txt | Temp: 0.3 | Repetitions: 5 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscape
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall colors river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river going forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_6.txt | Temp: 0.3 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_6.txt | Temp: 0.3 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_7.txt | Temp: 0.5 | Repetitions: 1 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surrounded water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscape
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river going forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_7.txt | Temp: 0.5 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river go forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_7.txt | Temp: 0.5 | Repetitions: 1 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.0000
+Recall: 0.0000
+
+Query 3: island surround water
+Precision: 0.2000
+Recall: 0.6667
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.2000
+Recall: 0.2500
+
+Query 8: river go forest
+Precision: 0.4000
+Recall: 0.6667
+
+=== File: captions_8.txt | Temp: 0.5 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.1000
+Recall: 0.2000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.2000
+Recall: 0.3333
+
+=== File: captions_8.txt | Temp: 0.5 | Repetitions: 3 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.3000
+Recall: 0.6000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 4: mountain landscap
+Precision: 0.4000
+Recall: 0.8000
+
+Query 5: fall color river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: boat water
+Precision: 0.0000
+Recall: 0.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.1000
+Recall: 0.1667
+
+=== File: captions_9.txt | Temp: 0.5 | Repetitions: 5 ===
+Experiment: No Preprocessing
+
+Query 1: waterfall with river in nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surrounded by water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river going through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_9.txt | Temp: 0.5 | Repetitions: 5 ===
+Experiment: Stemming Only
+
+Query 1: waterfal with river in natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: an island surround by water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color and a river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: a boat on the water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset over a lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: a river go through a forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_9.txt | Temp: 0.5 | Repetitions: 5 ===
+Experiment: Stopwords Only
+
+Query 1: waterfall river nature
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowy forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surrounded water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscape
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall colors river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river going forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_9.txt | Temp: 0.5 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.3000
+Recall: 1.0000
+
+Query 4: mountain landscap
+Precision: 0.5000
+Recall: 1.0000
+
+Query 5: fall color river
+Precision: 0.2000
+Recall: 0.4000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.5000
+Recall: 0.6250
+
+Query 8: river go forest
+Precision: 0.3000
+Recall: 0.5000
+
+=== File: captions_9.txt | Temp: 0.5 | Repetitions: 5 ===
+Experiment: Stemming + Stopwords + Thesaurus
+
+Query 1: waterfal river natur
+Precision: 0.4000
+Recall: 0.8000
+
+Query 2: cold snowi forest
+Precision: 0.1000
+Recall: 0.5000
+
+Query 3: island surround water
+Precision: 0.1000
+Recall: 0.3333
+
+Query 4: mountain landscap
+Precision: 0.3000
+Recall: 0.6000
+
+Query 5: fall color river
+Precision: 0.0000
+Recall: 0.0000
+
+Query 6: boat water
+Precision: 0.1000
+Recall: 1.0000
+
+Query 7: sunset lake
+Precision: 0.6000
+Recall: 0.7500
+
+Query 8: river go forest
+Precision: 0.1000
+Recall: 0.1667
